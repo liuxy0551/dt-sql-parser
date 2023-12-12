@@ -18,6 +18,14 @@ describe('FlinkSQL ErrorStrategy test', () => {
         flinkSQL.listen(splitListener as FlinkSqlParserListener, parseTree);
 
         const statementCount = splitListener.statementsContext.length;
+
+        console.log(
+            111,
+            splitListener.statementsContext.map((item) => ({
+                text: item.text,
+                exception: !!item.exception,
+            }))
+        );
         splitListener.statementsContext.map((item, index) => {
             if (index !== statementCount - 1 && index !== statementCount - 2) {
                 expect(item.exception).not.toBe(undefined);

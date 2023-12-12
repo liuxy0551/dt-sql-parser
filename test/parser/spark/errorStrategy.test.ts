@@ -12,22 +12,29 @@ describe('SparkSQL ErrorStrategy test', () => {
     const sparkSQL = new SparkSQL();
 
     // TODO: handle unexpected case
-    // test('begin inValid', () => {
-    //     const sql = [inValidSQL, validSQL1, validSQL2].join('\n');
-    //     // parse with empty errorListener
-    //     const parseTree = sparkSQL.parse(sql, () => {});
-    //     const splitListener = new SparkSqlSplitListener();
-    //     sparkSQL.listen(splitListener as SparkSqlParserListener, parseTree);
+    test('begin inValid', () => {
+        const sql = [inValidSQL, validSQL1, validSQL2].join('\n');
+        // parse with empty errorListener
+        const parseTree = sparkSQL.parse(sql, () => {});
+        const splitListener = new SparkSqlSplitListener();
+        sparkSQL.listen(splitListener as SparkSqlParserListener, parseTree);
 
-    //     const statementCount = splitListener.statementsContext.length;
-    //     splitListener.statementsContext.map((item, index) => {
-    //         if(index !== statementCount-1 && index !== statementCount - 2) {
-    //             expect(item.exception).not.toBe(undefined);
-    //         } else {
-    //             expect(item.exception).toBe(undefined);
-    //         }
-    //     })
-    // });
+        const statementCount = splitListener.statementsContext.length;
+        console.log(
+            111,
+            splitListener.statementsContext.map((item) => ({
+                text: item.text,
+                exception: !!item.exception,
+            }))
+        );
+        splitListener.statementsContext.map((item, index) => {
+            if (index !== statementCount - 1 && index !== statementCount - 2) {
+                expect(item.exception).not.toBe(undefined);
+            } else {
+                expect(item.exception).toBe(undefined);
+            }
+        });
+    });
 
     // TODO: handle unexpected case
     // test('middle inValid', () => {
@@ -38,6 +45,7 @@ describe('SparkSQL ErrorStrategy test', () => {
     //     sparkSQL.listen(splitListener as SparkSqlParserListener, parseTree);
 
     //     const statementCount = splitListener.statementsContext.length;
+    //     console.log(1112, splitListener.statementsContext.map(item => ({ text: item.text, exception: !!item.exception })))
     //     splitListener.statementsContext.map((item, index) => {
     //         if(index !== statementCount-1 && index !== 0) {
     //             expect(item.exception).not.toBe(undefined);
