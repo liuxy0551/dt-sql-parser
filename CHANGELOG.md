@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.1.1](https://github.com/DTStack/dt-sql-parser/compare/v4.1.0...v4.1.1) (2025-02-17)
+
+
+### Bug Fixes
+
+* **flink:** [#398](https://github.com/DTStack/dt-sql-parser/issues/398) fix flinksql built-in function's using ([#399](https://github.com/DTStack/dt-sql-parser/issues/399)) ([f8afbe2](https://github.com/DTStack/dt-sql-parser/commit/f8afbe29b3bbe47ace0e04476ceb50fb44994235))
+* regenerator lock file ([2db44f1](https://github.com/DTStack/dt-sql-parser/commit/2db44f13bc4cb9e700aebbf86a3a7b9296945a10))
+
 ## [4.1.0](https://github.com/DTStack/dt-sql-parser/compare/v4.0.1...v4.1.0) (2025-02-13)
 
 
