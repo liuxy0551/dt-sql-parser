@@ -1,0 +1,31 @@
+src/parser/common/basicSQL.ts
+  s_ce10511bc3ff5a::t_ddc391e46d3a50 610
+  s_ce10511bc3ff5a::t_f3814a0eda6d06 562-563
+test/common/suggestion.test.ts
+  s_ce10511bc3ff5a::t_dfa4552578ff5e 31
+  s_ce10511bc3ff5a::t_d9727d1851a843 33-36
+  s_ce10511bc3ff5a::t_4bb0be50ef90d4 25-30,32,37-38
+  s_ce10511bc3ff5a::t_ddc391e46d3a50 1-2
+  s_ce10511bc3ff5a::t_b42e0d0a7a29a6 39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "25ff5619fea539fd8f74072f62f8ac741e4871a4",
+  "prompts": {},
+  "humans": {
+    "h_3070dc1062bb3b": {
+      "author": "liuxy0551 <liuxy0551@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_ce10511bc3ff5a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fa75c-216d-74e1-a8e4-ee1ac171a76e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "liuxy0551 <liuxy0551@qq.com>"
+    }
+  }
+}
