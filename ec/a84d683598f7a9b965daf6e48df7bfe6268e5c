@@ -1,0 +1,36 @@
+test/parser/syntaxSuggestionWordRange.test.ts
+  s_1a669f4ece9af1::t_b130961cda50b8 11-12,28-43,115-120,122-124
+  s_1a669f4ece9af1::t_839823adcc0f4b 114,121,125-131
+src/parser/common/basicSQL.ts
+  s_1a669f4ece9af1::t_95b9bc1687a29c 106-116,118-133
+  s_e172b81da6cfa7::t_92aea8d3c4b437 117
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "eca84d683598f7a9b965daf6e48df7bfe6268e5c",
+  "prompts": {},
+  "humans": {
+    "h_0c940a947252a6": {
+      "author": "liuyi <liuyi@dtstack.com>"
+    }
+  },
+  "sessions": {
+    "s_1a669f4ece9af1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019fa786-865b-7b61-bc8a-303d4432b3ec",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "liuyi <liuyi@dtstack.com>"
+    },
+    "s_e172b81da6cfa7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "35cb6c97-7b4d-4f37-9ca3-83ae183e3b61",
+        "model": "deepseek-v4-flash-0731"
+      },
+      "human_author": null
+    }
+  }
+}
