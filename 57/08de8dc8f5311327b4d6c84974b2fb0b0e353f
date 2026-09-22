@@ -1,0 +1,24 @@
+AGENTS.md
+  s_fcae82f2590a11::t_128068e27e47e1 1-65
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5708de8dc8f5311327b4d6c84974b2fb0b0e353f",
+  "prompts": {},
+  "humans": {
+    "h_3070dc1062bb3b": {
+      "author": "liuxy0551 <liuxy0551@qq.com>"
+    }
+  },
+  "sessions": {
+    "s_fcae82f2590a11": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c83b-0c94-7bf3-8fbc-0bb06908ef19",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    }
+  }
+}
