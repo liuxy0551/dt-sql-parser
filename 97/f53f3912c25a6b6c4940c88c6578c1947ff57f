@@ -10,6 +10,7 @@ src/grammar/trino/TrinoSql.g4
   s_17bc8e2ba21147::t_2ae05441ead115 132
   s_17bc8e2ba21147::t_0a601e308520f8 867
   s_17bc8e2ba21147::t_59ec3000ed0b37 595
+  s_b1010c5c2632f1::t_35159c31668e4e 133-136,180,219,235,240,242,244-247,305-306,353-356,379,384,405-409,445-447,559,572,585-589,591-594,596-597,599-617,770-773,817-822,841,858-866,868,893,1599
 test/parser/trino/syntax/fixtures/create_function.sql
   s_17bc8e2ba21147::t_2350a399a29591 8-25
 test/parser/trino/syntax/fixtures/select.sql
@@ -34,6 +35,14 @@ test/parser/trino/syntax/fixtures/select.sql
         "model": "mimo-v2.5-pro"
       },
       "human_author": null
+    },
+    "s_b1010c5c2632f1": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0c86e-f603-7c20-af5a-699d95541809",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "liuxy0551 <liuxy0551@qq.com>"
     }
   }
 }
