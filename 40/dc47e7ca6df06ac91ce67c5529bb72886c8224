@@ -1,0 +1,14 @@
+benchmark_reports/cold_start/hive.benchmark.md
+  h_0c940a947252a6 7,10-11,15-16,26-27,29-33,35-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "40dc47e7ca6df06ac91ce67c5529bb72886c8224",
+  "prompts": {},
+  "humans": {
+    "h_0c940a947252a6": {
+      "author": "liuyi <liuyi@dtstack.com>"
+    }
+  }
+}
