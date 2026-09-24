@@ -4,7 +4,7 @@
 FlinkSQL
 
 ### Report Time
-2026/9/24 10:14:35
+2026/9/24 10:22:50
 
 ### Device
 macOS 15.7.9
@@ -23,15 +23,15 @@ Cold Start
 ### Report
 |  Benchmark Name |           Method Name           |SQL Rows|Average Time(ms)| 
 |-----------------|---------------------------------|--------|----------------| 
-| Query Collection|           getAllTokens          |  1015  |       298      | 
-| Query Collection|             validate            |  1015  |       301      | 
-|  Insert Columns |           getAllTokens          |  1001  |       59       | 
+| Query Collection|           getAllTokens          |  1015  |       282      | 
+| Query Collection|             validate            |  1015  |       282      | 
+|  Insert Columns |           getAllTokens          |  1001  |       53       | 
 |  Insert Columns |             validate            |  1001  |       58       | 
-|   Create Table  |           getAllTokens          |  1004  |       19       | 
-|   Create Table  |             validate            |  1004  |       19       | 
-|    Split SQL    |       splitSQLByStatement       |   999  |       47       | 
-| Collect Entities|          getAllEntities         |  1056  |       199      | 
-|    Suggestion   |   getSuggestionAtCaretPosition  |  1056  |       240      | 
-|Collect Semantics|getSemanticContextAtCaretPosition|  1015  |       323      | 
+|   Create Table  |           getAllTokens          |  1004  |       16       | 
+|   Create Table  |             validate            |  1004  |       17       | 
+|    Split SQL    |       splitSQLByStatement       |   999  |       40       | 
+| Collect Entities|          getAllEntities         |  1056  |       185      | 
+|    Suggestion   |   getSuggestionAtCaretPosition  |  1056  |       226      | 
+|Collect Semantics|getSemanticContextAtCaretPosition|  1015  |       309      | 
 
 
