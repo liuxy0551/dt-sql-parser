@@ -4,7 +4,7 @@
 ImpalaSQL
 
 ### Report Time
-2026/9/24 14:40:09
+2026/9/24 14:45:40
 
 ### Device
 macOS 15.7.9
@@ -23,17 +23,17 @@ Cold Start
 ### Report
 |  Benchmark Name |           Method Name           |SQL Rows|Average Time(ms)| 
 |-----------------|---------------------------------|--------|----------------| 
-| Query Collection|           getAllTokens          |  1015  |       93       | 
-| Query Collection|             validate            |  1015  |       128      | 
-|   Update Table  |           getAllTokens          |  1011  |       129      | 
-|   Update Table  |             validate            |  1011  |       104      | 
-|  Insert Columns |           getAllTokens          |  1001  |       149      | 
-|  Insert Columns |             validate            |  1001  |       146      | 
-|   Create Table  |           getAllTokens          |  1002  |       28       | 
-|   Create Table  |             validate            |  1002  |       38       | 
-|    Split SQL    |       splitSQLByStatement       |  1001  |       158      | 
-| Collect Entities|          getAllEntities         |  1066  |       174      | 
-|    Suggestion   |   getSuggestionAtCaretPosition  |  1066  |       116      | 
-|Collect Semantics|getSemanticContextAtCaretPosition|  1015  |       109      | 
+| Query Collection|           getAllTokens          |  1015  |       94       | 
+| Query Collection|             validate            |  1015  |       79       | 
+|   Update Table  |           getAllTokens          |  1011  |       95       | 
+|   Update Table  |             validate            |  1011  |       95       | 
+|  Insert Columns |           getAllTokens          |  1001  |       121      | 
+|  Insert Columns |             validate            |  1001  |       120      | 
+|   Create Table  |           getAllTokens          |  1002  |       15       | 
+|   Create Table  |             validate            |  1002  |       15       | 
+|    Split SQL    |       splitSQLByStatement       |  1001  |       53       | 
+| Collect Entities|          getAllEntities         |  1066  |       105      | 
+|    Suggestion   |   getSuggestionAtCaretPosition  |  1066  |       101      | 
+|Collect Semantics|getSemanticContextAtCaretPosition|  1015  |       93       | 
 
 
